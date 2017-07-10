@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+<script>
+
+//Initializing arrays:
+
+var color = ["Blue","Green","Red","Orange","Violet","Indigo","Yellow"]
+
+var o = ["th","st","nd","rd"]
+
+//Printing in the console:
+
+console.log("1"+o[o.length-3]+" choice is "+color[color.length-7])
+console.log("2"+o[o.length-2]+" choice is "+color[color.length-6])
+console.log("3"+o[o.length-1]+" choice is "+color[color.length-5])
+console.log("4"+o[o.length-4]+" choice is "+color[color.length-4])
+console.log("5"+o[o.length-4]+" choice is "+color[color.length-3])
+console.log("6"+o[o.length-4]+" choice is "+color[color.length-2])
+console.log("7"+o[o.length-4]+" choice is "+color[color.length-1])
+
+
+</script>
+
+</body>
+</html>
