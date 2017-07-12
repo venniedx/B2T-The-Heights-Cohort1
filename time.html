@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+<script>
+
+//creating variable for today's date
+	var today = new Date (2017, 06, 12, 4, 28, 30);
+
+//creating a future date
+    var otherdate = new Date (2098, 09, 22, 4, 5, 2);
+
+//calculating the difference between the years, months and days
+    var yearDiff = otherdate.getFullYear() - today.getFullYear()
+    var monthDiff = otherdate.getMonth() - today.getMonth()
+    var dayDiff = otherdate.getDay() - today.getDay()
+
+//printing the results in the console
+ console.log("The difference between the 2 dates are: " +yearDiff+ " years, " +monthDiff+" months and "+ dayDiff+ " days." )
+
+
+</script>
+
+</body>
+</html>
