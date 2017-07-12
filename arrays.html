@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+
+<p id = "arrays">TEXT</p>
+
+</head>
+<body>
+
+<script>
+
+//creating array:
+var fruits = ["apple","orange","kiwi"]
+
+//prompt to add more fruit in a variable
+var newFruit = prompt("Add more fruit")
+
+//place the user input at the beginning of the array
+fruits.push(newFruit);
+
+//removes the first element of the array
+fruits.shift();
+
+//sorts the array in alphabetical order
+fruits.sort();
+
+//joins the elements in the array with the word "with"
+
+document.getElementById("arrays").innerHTML = fruits.join(" with ")
+
+</script>
+
+
+
+</body>
+</html>
