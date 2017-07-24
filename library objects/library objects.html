@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+<script type="text/javascript">
+// 	var baby = {
+// 		name: "David",
+// 		age: 2,
+// 		favFoods: ["Gerber", "Formula", "Peas", "Boogers"],
+// 		cry: function(){
+// 			console.log("WAAAAAAAAAAAAAH");
+// 		}
+
+// 	};
+
+// console.log("My baby is named " + baby.name)
+// console.log("Age is " + baby.age)
+// console.log("One of their fav foods is " + baby.favFoods[1])
+// baby.cry()
+
+
+var library = [
+	{author: "Bill Gates", title: "The Road Ahead", readingStatus: true},
+	{author: "Steve Jobs", title: "Walter Isaacson", readingStatus: true},
+	{author: "Suzanne Collins", title: "Mockingjay: The Final Book of The Hunger Games", readingStatus: false}
+];
+
+for(var i = 0; i < library.length; i++){
+	if(library[i].readingStatus == true){
+		console.log("Already read " + library[i].title + " by " + library[i].author)}
+		else{
+			console.log("You still need to read " + library[i].title + " by " + library[i].author)
+
+		}
+
+}
+
+
+</script>
+
+</body>
+</html>
